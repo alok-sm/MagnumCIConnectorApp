@@ -6,7 +6,7 @@ class TestsController < ApplicationController
   def index
     @tests = Test.all
     if params.has_key? :error
-      raise 'error'
+      raise 'xyzzyspoon!'
     end
   end
 
