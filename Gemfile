@@ -9,7 +9,7 @@ gem 'rails', '4.1.8'
 
 
 
-
+gem 'librato-rails'
 
 
 group :development, :test do
